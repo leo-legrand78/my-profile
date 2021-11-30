@@ -1,0 +1,119 @@
+
+body {
+color: rgb(30, 30, 30);
+text-align: justify;
+background-color: #F7F9FC;
+text-decoration: none;
+}
+
+a {
+text-decoration: none;
+color: black;
+}
+
+a:hover {
+	color: grey;
+}
+
+h1, h2, h3{
+font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+
+h1 {
+color: saddlebrown;
+font-size: 30px;
+font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+#banner {
+background-image: saddlebrown;
+background-size: 30px;
+}
+
+h2 {
+color: red;
+font-size: 20px;
+}
+
+.container {
+width: 700px;
+margin: 30px auto;
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+.card-white {
+background-color: white;
+padding: 60px;
+box-shadow: 0px 10px 30px rgb(213, 216, 220);
+border-radius:4px;
+margin: 25px 0px;
+text-align: center;
+}
+
+.img-circle {
+border-radius:50%;
+}
+
+.img-bordered {
+border: 2px solid saddlebrown;
+border-radius:20%;
+}
+
+.btn-blue {
+	background-color: #6B72E1;
+	color: white;
+	padding:  15px 20px;
+	border-radius:3%;
+}
+
+.btn-blue:hover {
+	background-color: black;
+	color: white;
+}
+
+.btn-green {
+	background-color: #2ECC71;
+	color: white;
+	padding:  15px 20px;
+	border-radius:3%;
+}
+
+.btn-green:hover {
+	background-color: #28B463;
+	color: white;
+}
+
+.btn-blue2 {
+	background-color: #2471A3;
+	color: white;
+	padding:  15px 20px;
+	border-radius:3%;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 20px;
+}
+
+.list-inline a {
+	font-size: 50px;
+	color: #566573;
+	text-align: left;
+}
+
+.list-inline a:hover {
+	color: black;
+}
+
